@@ -84,7 +84,7 @@ class ViewController: UIViewController {
             
         }   else {
                 print("TestUser Nil")
-                showMessage(strMessage: "No " + strUser + "ไม่มีข้อมูล")
+                showMessage(strMessage: "เสียใจด้วย " + strUser + " ไม่มีข้อมูล")
         
         }
         
