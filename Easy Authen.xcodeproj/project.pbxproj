@@ -12,7 +12,7 @@
 		AE5480DC1EEFD7600061B178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5480DA1EEFD7600061B178 /* Main.storyboard */; };
 		AE5480DE1EEFD7600061B178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5480DD1EEFD7600061B178 /* Assets.xcassets */; };
 		AE5480E11EEFD7600061B178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5480DF1EEFD7600061B178 /* LaunchScreen.storyboard */; };
-		AE5480E91EEFDA420061B178 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5480E81EEFDA420061B178 /* bg.jpg */; };
+		FC2B74771EF0EA8200EB1BE3 /* IMG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC2B74761EF0EA8200EB1BE3 /* IMG.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		AE5480DD1EEFD7600061B178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE5480E01EEFD7600061B178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE5480E21EEFD7600061B178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE5480E81EEFDA420061B178 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = ../../../../Desktop/bg.jpg; sourceTree = "<group>"; };
+		FC2B74761EF0EA8200EB1BE3 /* IMG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG.jpg; path = ../../../Desktop/IMG.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				AE5480D61EEFD7600061B178 /* AppDelegate.swift */,
-				AE5480E81EEFDA420061B178 /* bg.jpg */,
+				FC2B74761EF0EA8200EB1BE3 /* IMG.jpg */,
 				AE5480D81EEFD7600061B178 /* ViewController.swift */,
 				AE5480DA1EEFD7600061B178 /* Main.storyboard */,
 				AE5480DD1EEFD7600061B178 /* Assets.xcassets */,
@@ -128,8 +128,8 @@
 			files = (
 				AE5480E11EEFD7600061B178 /* LaunchScreen.storyboard in Resources */,
 				AE5480DE1EEFD7600061B178 /* Assets.xcassets in Resources */,
-				AE5480E91EEFDA420061B178 /* bg.jpg in Resources */,
 				AE5480DC1EEFD7600061B178 /* Main.storyboard in Resources */,
+				FC2B74771EF0EA8200EB1BE3 /* IMG.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +305,7 @@
 				AE5480E71EEFD7600061B178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
