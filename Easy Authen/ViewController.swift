@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     //Implicit
     var strUser: String?
     var strPassword: String?
+    let dicUser = ["ton": "1234", "pood": "5678", "tonp": "4321"]
+    
     
     
     
@@ -44,9 +46,16 @@ class ViewController: UIViewController {
         
         //Call checkSpace
         if checkSpace(myString: strUser!) && checkSpace(myString: strPassword!) {
+            
+            //No Space
             print("ผ่านได้")
             showMessage(strMessage: "")
+            checkUserPass(strUser: strUser!, strPassword: strPassword!)
+            
+            
         }   else {
+            
+            //Have Space
             print("ไม่ผ่าน")
             showMessage(strMessage: "กรุณากรอก User & Password")
         }
@@ -62,6 +71,22 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view, typically from a nib.
     }   // Main Method
+    
+    func checkUserPass(strUser: String, strPassword: String) -> Void {
+        
+        //checkUser
+        if let testUser = dicUser[strUser] {
+            print("Test ==> \(testUser)")
+            
+        }   else {
+                print("TestUser Nil")
+                showMessage(strMessage: "No " + strUser + "ไม่มีข้อมูล")
+        
+        }
+        
+    }// CheckUserPass
+    
+    
     
     func showMessage(strMessage: String) -> Void {
         messageLabel.text = strMessage
@@ -85,14 +110,14 @@ class ViewController: UIViewController {
     }
     
     
-    
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }   // didRecive
 
-
+    
+    
+    
 }   // Main Class
 
