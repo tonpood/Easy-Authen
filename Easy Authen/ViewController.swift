@@ -77,6 +77,10 @@ class ViewController: UIViewController {
         //checkUser
         if let testUser = dicUser[strUser] {
             print("Test ==> \(testUser)")
+            if strPassword == testUser {
+                // Password ture
+                showMessage(strMessage: "ยินดีต้อนรับคุณ " + strUser)
+            }
             
         }   else {
                 print("TestUser Nil")
