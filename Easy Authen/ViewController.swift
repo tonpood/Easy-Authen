@@ -44,11 +44,11 @@ class ViewController: UIViewController {
         
         //Call checkSpace
         if checkSpace(myString: strUser!) && checkSpace(myString: strPassword!) {
-            print("No Space")
+            print("ผ่านได้")
             showMessage(strMessage: "")
         }   else {
-            print("Have Space")
-            showMessage(strMessage: "Please Fill Every Blank")
+            print("ไม่ผ่าน")
+            showMessage(strMessage: "กรุณากรอก User & Password")
         }
         
         
